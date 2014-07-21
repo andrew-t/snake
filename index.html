@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Snakes on a Plane</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+		<script src="snake.js"></script>
+		<link rel="stylesheet" type="text/css" href="snake.css" />
+		<link href='http://fonts.googleapis.com/css?family=Press+Start+2P&text=Pres+pactorUlfndghwky.Ecpuic,0123456789' rel='stylesheet' type='text/css'>
+		<meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE" />
+	</head>
+	<body onload="init();">
+		<div id="game">
+			<div id="offset">
+				<div id="pip"></div>
+				<div id="snake"></div>
+			</div>
+		</div>
+		<div id="start">
+			<a href="javascript:newgame();">Press space to start</a><br />
+			Use left and right arrow keys to steer.<br />
+			Each pip you eat increases your score, length, and turning circle.
+		</div>
+		<div id="score"></div>
+		<script type="text/javascript">
+
+		  var _gaq = _gaq || [];
+		  _gaq.push(['_setAccount', 'UA-1802479-1']);
+		  _gaq.push(['_trackPageview']);
+
+		  (function() {
+		    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		  })();
+
+		</script>
+	</body>
+</html>

@@ -1,0 +1,60 @@
+body {
+	overflow: hidden;
+	background: url('bg.png');
+	font-family: 'Press Start 2P', sans-serif;
+	line-height: 2.5em;
+}
+body > div {
+	opacity: 0.6;
+}
+
+#game {
+	position: relative;
+	top: 50px;
+	background-image: url('field.svg');
+	background-size: cover;
+	margin: auto;
+}
+
+#offset {
+	position: relative;
+	left: -15px;
+	top: -15px;
+}
+
+#snake > div, #pip {
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	background-image: url('blacksmall.svg');
+	background-size: cover;
+}
+
+#snake > div.head {
+	background-image: url('blackhead.svg');
+}
+
+#start {
+	position: absolute;
+	left: 0px; top: 0px;
+	width: 100%; height: 100%;
+	text-align: center;
+	padding-top: 250px;
+	color: black;
+	font-size: 30px;
+}
+#start a {
+	color: black;
+	text-decoration: none;
+}
+#start a:hover {
+	color: black;
+	text-decoration: underline;
+}
+
+#score {
+	font-size: 50px;
+	position: absolute;
+	left: 10px;
+	top: 10px;
+}
